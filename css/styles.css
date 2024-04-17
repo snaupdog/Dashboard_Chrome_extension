@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.centered {
+  font-size: 20px;
+  color: red;
+  /* Your centered content styles */
+}

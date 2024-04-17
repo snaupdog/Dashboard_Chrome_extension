@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Custom New Tab",
+  "version": "1.0",
+  "description": "custom new tab pagee",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "assets/icons/active.png"
+  },
+  "permissions": ["storage"]
+}
